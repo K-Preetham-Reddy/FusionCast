@@ -3,8 +3,6 @@ django-cors-headers==4.9.0
 pandas==2.3.3
 numpy==2.2.6
 tensorflow==2.20.0
-scikit-learn
+sklearn==1.0.0
 holidays==0.34
-gunicorn
-
 
