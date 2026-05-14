@@ -231,7 +231,7 @@ date,sales
 
 ## 🏗️ Model Architecture
 
-The MCDFN (Multi-Channel Deep Forecasting Network) model uses:
+The MCDFN (Multi-Channel Data Fusion Network) model uses:
 
 ### Model Features:
 - **4 Parallel Channels**:
