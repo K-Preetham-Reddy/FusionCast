@@ -1,7 +1,7 @@
 # 🚀 FusionCast — Intelligent Demand Forecasting Platform
 
 FusionCast is an advanced demand forecasting web application built using **Next.js** and **Django** that integrates deep learning-based forecasting models to enhance prediction accuracy and interpretability.  
-It aims to improve upon the original **MCDFN (Multi-Channel Deep Forecasting Network)** model by fusing multiple data sources and applying advanced neural architectures for smarter, adaptive demand forecasting.
+It aims to improve upon the original **MCDFN (Multi-Channel Data Fusion Network)** model by fusing multiple data sources and applying advanced neural architectures for smarter, adaptive demand forecasting.
 
 ---
 
@@ -262,7 +262,7 @@ This methodology supports continuous improvement and rapid iteration throughout 
 - **Planning** — Define project goals, features, and datasets.  
 - **Design** — Develop UI wireframes, system flow diagrams, and architecture drafts.  
 - **Development** — Implement backend APIs, frontend components, and model training scripts. 
-- **Testing** — Sprint reviews, retrospectives, and backlog updates. 
+- **Testing** — Validate forecasting accuracy, API reliability, and frontend responsiveness. 
 - **Review & Feedback** — Compares results with baselines like MCDFN and classical models.
 - **Deployment** — Deploy to staging and production environments with CI/CD pipelines.
 
@@ -316,14 +316,14 @@ FormData {
       "Sales": "Historical sales values",
       ...
     },
-    "method": "gradient_approximation"
+    "method": "Feature importance inspired by SHAP-style interpretability"
   }
 }
 ```
 
 ---
 
-## � Expla inability Features
+## � Explainability Features
 
 FusionCast now includes advanced explainability to help you understand what drives your forecasts.
 
@@ -364,7 +364,7 @@ For detailed documentation, see [EXPLAINABILITY_GUIDE.md](EXPLAINABILITY_GUIDE.m
 - **TensorFlow 2.20.0** - Deep learning model
 - **Pandas 2.3.3** - Data processing
 - **NumPy 2.2.6** - Numerical operations
-- **Scikit-learn 1.0.0** - Data preprocessing
+- **sklearn 1.0.0** - Data preprocessing
 - **Holidays 0.34** - Holiday detection
 
 ### Frontend
